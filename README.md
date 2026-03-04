@@ -10,9 +10,9 @@
 
 ## 2) Servidor local
 - `composer install`
-  - 
+  - Instala todas las dependencias del proyecto definidas en `composer.json`.
 - `php artisan key:generate`
-  - 
+  - Genera y guarda en `.env` la clave de aplicación (`APP_KEY`), necesaria para la encriptación y la seguridad de sesiones.
 - `php artisan serve`
   - Arranca el servidor de desarrollo.
 
